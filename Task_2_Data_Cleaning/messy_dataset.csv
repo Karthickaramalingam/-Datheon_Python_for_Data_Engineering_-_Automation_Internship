@@ -1,0 +1,12 @@
+
+Customer_ID,Customer_Name,Amount,Date,City
+101,Ravi,₹1,200,2026-01-10,Trichy
+102,Priya,850.50,10/01/2026,Chennai
+101,Ravi,₹1,200,2026-01-10,Trichy
+103,Arun,,15-Jan-2026,Madurai
+104,Meena,$200,invalid,Chennai
+105,,1500,2026/01/20,Trichy
+106,Kumar,"  ₹2,500 ",2026-02-01,Coimbatore
+107,Priya,850.50,10/01/2026,Chennai
+108,Divya,Not Available,2026-02-10,
+

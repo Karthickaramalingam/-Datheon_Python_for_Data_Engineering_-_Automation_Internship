@@ -1,0 +1,8 @@
+Customer_ID,Customer_Name,Amount,Date,City
+101,Ravi,1.0,,2026-01-10
+102,Priya,850.5,2026-01-10,Chennai
+103,Arun,,2026-01-15,Madurai
+104,Meena,200.0,,Chennai
+106,Kumar,2500.0,2026-02-01,Coimbatore
+107,Priya,850.5,2026-01-10,Chennai
+108,Divya,,2026-02-10,Unknown

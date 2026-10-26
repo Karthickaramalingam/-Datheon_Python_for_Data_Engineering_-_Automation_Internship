@@ -1,0 +1,87 @@
+2026-10-26 21:01:45,370 - INFO - Data cleaning process started.
+2026-10-26 21:01:45,370 - INFO - Original row count: 9
+2026-10-26 21:01:45,396 - INFO - Missing values after normalization: {'Customer_ID': 7, 'Customer_Name': 1, 'Amount': 6, 'Date': 6, 'City': 6}
+2026-10-26 21:01:45,399 - INFO - Final schema valid: True
+2026-10-26 21:01:45,399 - INFO - Final missing values: {'Customer_ID': 0, 'Customer_Name': 0, 'Amount': 0, 'Date': 0, 'City': 0}
+2026-10-26 21:01:45,399 - INFO - Duplicate rows removed: 2
+2026-10-26 21:01:45,399 - INFO - Rows removed for missing required fields: 7
+
+
+AUTOMATED DATA CLEANING REPORT
+========================================
+Original rows: 9
+Final rows: 0
+Duplicate rows removed: 2
+Rows removed for missing required fields: 7
+Schema validation passed: True
+
+Final column data types:
+Customer_ID               Int64
+Customer_Name            string
+Amount                  Float64
+Date             datetime64[us]
+City                     string
+
+Missing values in final dataset:
+{'Customer_ID': 0, 'Customer_Name': 0, 'Amount': 0, 'Date': 0, 'City': 0}
+
+Cleaned dataset saved to: cleaned_dataset.csv
+Note: Missing or invalid Amount and Date values are retained as empty fields.
+2026-10-26 21:08:47,677 - INFO - Data cleaning process started.
+2026-10-26 21:08:47,677 - INFO - Original row count: 9
+2026-10-26 21:08:47,697 - INFO - Missing values after normalization: {'Customer_ID': 0, 'Customer_Name': 1, 'Amount': 2, 'Date': 2, 'City': 1}
+2026-10-26 21:08:47,701 - INFO - Final schema valid: True
+2026-10-26 21:08:47,701 - INFO - Final missing values: {'Customer_ID': 0, 'Customer_Name': 0, 'Amount': 2, 'Date': 2, 'City': 0}
+2026-10-26 21:08:47,701 - INFO - Duplicate rows removed: 1
+2026-10-26 21:08:47,701 - INFO - Rows removed for missing required fields: 1
+
+
+AUTOMATED DATA CLEANING REPORT
+========================================
+Original rows: 9
+Final rows: 7
+Duplicate rows removed: 1
+Rows removed for missing required fields: 1
+Schema validation passed: True
+
+Final column data types:
+Customer_ID               Int64
+Customer_Name            string
+Amount                  Float64
+Date             datetime64[us]
+City                     string
+
+Missing values in final dataset:
+{'Customer_ID': 0, 'Customer_Name': 0, 'Amount': 2, 'Date': 2, 'City': 0}
+
+Cleaned dataset saved to: cleaned_dataset.csv
+Note: Missing or invalid Amount and Date values are retained as empty fields.
+2026-10-26 21:12:34,988 - INFO - Data cleaning process started.
+2026-10-26 21:12:34,988 - INFO - Original row count: 9
+2026-10-26 21:12:35,010 - INFO - Missing values after normalization: {'Customer_ID': 0, 'Customer_Name': 1, 'Amount': 2, 'Date': 2, 'City': 1}
+2026-10-26 21:12:35,015 - INFO - Final schema valid: True
+2026-10-26 21:12:35,015 - INFO - Final missing values: {'Customer_ID': 0, 'Customer_Name': 0, 'Amount': 2, 'Date': 2, 'City': 0}
+2026-10-26 21:12:35,015 - INFO - Duplicate rows removed: 1
+2026-10-26 21:12:35,015 - INFO - Rows removed for missing required fields: 1
+
+
+AUTOMATED DATA CLEANING REPORT
+========================================
+Original rows: 9
+Final rows: 7
+Duplicate rows removed: 1
+Rows removed for missing required fields: 1
+Schema validation passed: True
+
+Final column data types:
+Customer_ID               Int64
+Customer_Name            string
+Amount                  Float64
+Date             datetime64[us]
+City                     string
+
+Missing values in final dataset:
+{'Customer_ID': 0, 'Customer_Name': 0, 'Amount': 2, 'Date': 2, 'City': 0}
+
+Cleaned dataset saved to: cleaned_dataset.csv
+Note: Missing or invalid Amount and Date values are retained as empty fields.
